@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Word Counter</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Word counter</h1>
+        <textarea  id="word" cols="30" rows="10" oninput="countword()" placeholder="Your words"></textarea>
+    </div>
+    <div class="countcontainer">
+        <div>
+            word : <span class="word">0</span>
+        </div>
+        <div>
+            charaters : <span class="charater">0</span>
+        </div>
+    </div>
+    
+</body>
+<script src="./index.js"></script>
+</html>
